@@ -1,0 +1,152 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+}
+
+/* navbar styling */
+
+.navbar{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo h1{
+    margin-top: 25px;
+    margin-left: 90px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    margin-top: 14px;
+    margin-right: 200px;
+}
+ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    margin-right: 90px;
+}
+ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 27px;
+    font-size: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+.btn{
+    width: 120px;
+    height: 60px;
+    background-color: aqua;
+    border: 1px solid #000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color:aquamarine;
+    color: #000;
+}
+
+/* service section styling */
+
+.service-section{
+    width: 100%;
+    height: 50vh;
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.inner{
+    width: 50%;
+    padding-left: 90px;
+}
+.img{
+    width: auto;
+    align-items: center;
+    padding-right: 200px;
+}
+.img img{
+    width: 550px;
+    border-radius: 30px;
+    align-items: center;
+}
+.service-section .inner h1{
+    font-size: 90px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.service-section .inner p{
+    font-size: 30px;
+}
+span{
+    color: #fff;
+}
+
+/* about section styling */
+.about-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-section{
+    width: 100%;
+    height: 45vh;
+    margin: auto;
+    background-color:#000 ;
+    margin-bottom: 10px;
+}
+.about-section h1{
+    text-align: right;
+    font-size: 70px;
+    color: aqua;
+}
+.about-section p{
+    text-align: right;
+    font-size: 30px;
+    color: #fff;
+
+}
+.first{
+    width: 50%;
+    height: 45vh;
+    margin-top: 50px;
+}
+.second{
+    width: 50%;
+    height: 45vh;
+}
+.first img{
+    width: 550px;
+    border-radius: 20px;
+}
+
+/* footer styling */
+
+.footer{
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+}
